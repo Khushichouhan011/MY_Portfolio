@@ -3,7 +3,7 @@ import "./About.css";
 import { IoDownloadOutline } from "react-icons/io5";
 import AboutImg from "../../assets/profile.jpg";
 import CV from "../../assets/CV.pdf"
-import My2 from "../../assets/my2.jpeg";
+import My2 from "../../assets/My2.jpeg";
 import { Info } from './Info';
 export const About = () => {
   return (
