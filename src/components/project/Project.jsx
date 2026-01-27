@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import { IoMdClose } from "react-icons/io";
-import { WOW } from "wowjs";
+
 import "./Project.css";
 
 import Food from "../../assets/food.png";
@@ -14,12 +14,7 @@ export const Project = () => {
     setToggle(index);
   };
 
-  useEffect(() => {
-    const wow = new WOW({
-      live: false,
-    });
-    wow.init();
-  }, []);
+ 
 
   return (
     <section className="services section" id="project">
@@ -30,7 +25,7 @@ export const Project = () => {
 
         {/* ================= PORTFOLIO ================= */}
         <div className="services__content">
-          <div className="project-card animate__animated animate__fadeInLeft">
+          <div className="project-card ">
             <img src={Port} alt="Portfolio Website" />
             <div className="project-content">
               <span className="project-year">June 2025 - Jan 2026</span>
@@ -95,7 +90,7 @@ export const Project = () => {
 
         {/* ================= CAR RENTAL ================= */}
         <div className="services__content">
-          <div className="project-card animate__animated animate__fadeInLeft">
+          <div className="project-card">
             <img src={Car} alt="Car Rental System" />
             <div className="project-content">
               <span className="project-year">Jan 2025 - March 2025</span>
@@ -156,7 +151,7 @@ export const Project = () => {
 
         {/* ================= FOOD ORDERING ================= */}
         <div className="services__content">
-          <div className="project-card animate__animated animate__fadeInLeft">
+          <div className="project-card ">
             <img src={Food} alt="Food Ordering Web App" />
             <div className="project-content">
               <span className="project-year">Jan 2024 - June 2024</span>
