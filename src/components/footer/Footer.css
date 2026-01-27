@@ -1,0 +1,109 @@
+
+
+/* ========== FOOTER BASE ========== */
+
+.footer {
+
+  position:static;
+  background-color: #0f172a;
+  color: white;
+  box-shadow: 0 -4px 8px rgba(15, 23, 42, 0.6);
+}
+
+.footer__container {
+  max-width: 968px;
+  margin-inline: auto;
+  padding: 2.5rem 1rem 3rem;
+  text-align: center;
+}
+
+/* ========== TITLE ========== */
+
+.footer__title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+/* ========== LINKS ========== */
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  list-style: none;
+  margin-bottom: 1.8rem;
+}
+
+.footer__link {
+  color: white;
+  font-size: 0.95rem;
+}
+
+.footer__link:hover {
+  color:white;
+}
+
+/* ========== SOCIAL ========== */
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.footer__social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background-color: #0f172a;
+  border-radius: 0.5rem;
+  color: white;
+  transition: transform 0.3s;
+}
+
+.footer__social-link:hover {
+  transform: translateY(-4px);
+  -webkit-transform: translateY(-4px);
+  -moz-transform: translateY(-4px);
+  -ms-transform: translateY(-4px);
+  -o-transform: translateY(-4px);
+}
+
+/* ICON */
+.icon {
+  font-size: 20px;
+}
+
+/* ========== COPY ========== */
+
+.footer__copy {
+  font-size: 0.8rem;
+  color: #e5e7eb;
+}
+
+/* ========== RESPONSIVE ========== */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .footer__title {
+    font-size: 1.6rem;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 350px) {
+  .footer__title {
+    font-size: 1.4rem;
+  }
+
+  .footer__list {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+}

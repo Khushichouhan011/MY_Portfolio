@@ -1,0 +1,158 @@
+ /* ========== BASE ========== */
+
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.button{
+  margin-top:20px;
+  background-color: #0f172a;
+  color:white;
+  border-radius: 5px;
+  padding:1rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.home__container {
+  max-width: 968px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.home__content {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr;
+  align-items: center;
+  column-gap: 2rem;
+  padding-top: 5rem;
+}
+
+/* ========== SOCIAL ========== */
+
+.home__social {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.home__social-icon {
+  font-size: 1.25rem;
+  color: white;
+}
+
+.home__social-icon:hover {
+  color: #0f172a;
+}
+
+/* ========== DATA ========== */
+
+.home__title {
+  font-size: 3rem;
+  color: white;
+}
+
+.home__subtitle {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.home__description {
+  max-width: 420px;
+  color: white;
+}
+
+/* ========== IMAGE ========== */
+
+.home__img {
+  width:350px;
+  height:400px;
+  background: url(../../assets/my2.jpeg) center/cover no-repeat;
+  box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
+  justify-self: center;
+  animation: profile__animate 8s ease-in-out infinite;
+}
+
+@keyframes profile__animate {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+/* ========== SCROLL ========== */
+
+.home__scroll-arrow {
+  font-size: 2.2rem;
+  color: #0f172a;
+}
+
+/* ================= MEDIA QUERIES ================= */
+
+/* 💻 Tablets */
+@media (max-width: 992px) {
+  .home__content {
+    grid-template-columns: 80px 1fr 1fr;
+  }
+
+  .home__img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  .home__content {
+    grid-template-columns: 1fr;
+    text-align: center;
+    row-gap: 2rem;
+  }
+
+  .home__social {
+    justify-content: center;
+    grid-auto-flow: column;
+    column-gap: 1.2rem;
+  }
+
+  .home__img {
+    order: -1;
+  }
+
+  .home__description {
+    margin-inline: auto;
+  }
+
+  .home__scroll-arrow {
+    display: none;
+  }
+}
+
+/* 📱 Small Mobile */
+@media (max-width: 576px) {
+  .home__img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .home__title {
+    font-size: 2.2rem;
+  }
+}
+
+/* 📱 Extra Small (350px) */
+@media (max-width: 350px) {
+  .home__img {
+    width: 200px;
+    height: 200px;
+  }
+
+ 
+}

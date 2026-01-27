@@ -1,0 +1,136 @@
+
+/* ========== BASE ========== */
+
+.about__container {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  align-items: center;
+  justify-items: center;
+  column-gap: 4rem;
+  padding-inline: 1rem;
+}
+
+.about__img {
+  width: 350px;
+  border-radius: 1.5rem;
+  justify-self: center;
+}
+
+.about__button {
+  font-size: medium;
+  gap: 0.3rem;
+  border-radius: 3px;
+  color: white;
+  margin-top: 1.5rem;
+  background-color: #0f172a;
+  padding: 0.7rem 0.7rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.about__button:hover {
+  background-color: transparent;
+}
+
+.about__info {
+  display: grid;
+  grid-template-columns: repeat(3, 140px);
+  gap: 0.5rem;
+  margin-bottom: var(--mb-2);
+  justify-content: center;
+}
+
+.about__box {
+  background-color: transparent;
+  border: 3px solid #0f172a;
+  border-radius: 0.75rem;
+  text-align: center;
+  padding: 1rem 1.25rem;
+}
+
+.about__icon {
+  font-size: 1.5rem;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+.about__title {
+  color: white;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
+
+.about__subtitle {
+  color: white;
+  font-size:12px;
+}
+
+.about__description {
+  padding-right: 0;
+  margin-bottom: var(--mb-2-5);
+  color: white;
+}
+
+/* ================= MEDIA QUERIES ================= */
+
+/* Large Tablets / Laptops */
+@media (max-width: 992px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    row-gap: 2.5rem;
+    text-align: center;
+  }
+
+  .about__img {
+    width: 300px;
+  }
+
+  .about__description {
+    padding-inline: 2rem;
+  }
+
+  .about__info {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .about__img {
+    width: 220px;
+  }
+
+  .about__info {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .about__description {
+    padding-inline: 1rem;
+  }
+}
+
+/* Extra Small Mobile */
+@media (max-width: 350px) {
+  .about__img {
+    width: 200px;
+  }
+
+  .about__info {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .about__description {
+    padding-inline: 0.5rem;
+  }
+
+  .about__button,
+  .section__title,
+  .section__subtitle {
+    margin: 0 auto; /* center align */
+  }
+}
+

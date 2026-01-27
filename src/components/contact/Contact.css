@@ -1,0 +1,173 @@
+
+/* ===== Contact Section ===== */
+
+
+.contact__container {
+  max-width: 968px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:6rem;
+}
+
+/* ===== Left & Right Content ===== */
+.contact__content {
+  width: 100%;
+}
+
+.contact__title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* ===== Contact Cards ===== */
+.contact_info {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.contact__card {
+  background: #f8fafc;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  text-align: center;
+  border: 1px solid #e5e7eb;
+}
+
+.contact__card-icon {
+  font-size: 2rem;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+.contact__card-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.contact__card-data {
+  display: block;
+  font-size: 0.85rem;
+  color: #0f172a;
+  margin-bottom: 0.8rem;
+}
+
+.contact__button {
+ color: #0f172a;
+  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-bottom : -20px;
+  font-weight: 500;
+}
+
+.contact__button-icon {
+  font-size: 1rem;
+  transition: transform 0.3s;
+}
+
+.contact__button:hover .contact__button-icon {
+  transform: translateX(4px);
+}
+
+/* ===== Form ===== */
+.contact__form {
+  width: 100%;
+}
+
+.contact__form-div {
+  position: relative;
+  margin-bottom: 1.8rem;
+}
+
+.contact__form-tag {
+  position: absolute;
+  top: -0.75rem;
+  left: 1rem;
+  font-size: 0.75rem;
+  
+  padding: 0 0.4rem;
+  color: #2563eb;
+}
+
+.contact__form-input {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.75rem;
+  padding: 0.9rem 1rem;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.contact__form-input:focus {
+  border-color: #2563eb;
+}
+
+/* ===== Button ===== */
+.buttons {
+   background:#0f172a;
+  color: #fff;
+  margin-top:-2rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.buttons:hover {
+  background: transparent;
+  color: #0f172a;
+}
+
+/* ==================== RESPONSIVE ==================== */
+
+/* Tablets */
+@media screen and (max-width: 768px) {
+  .contact__container {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .contact__title {
+    text-align: center;
+  }
+}
+
+/* Mobile (576px) */
+@media screen and (max-width: 576px) {
+  .contact__card {
+    padding: 1rem;
+  }
+
+  .contact__card-icon {
+    font-size: 1.8rem;
+  }
+
+  .button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Small Mobile (350px) */
+@media screen and (max-width: 350px) {
+  .contact__form-input {
+    padding: 0.75rem;
+    font-size: 0.8rem;
+  }
+
+  .contact__card-title {
+    font-size: 0.9rem;
+  }
+
+  .contact__card-data {
+    font-size: 0.75rem;
+  }
+}
