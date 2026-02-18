@@ -9,7 +9,9 @@
   column-gap: 4rem;
   padding-inline: 1rem;
 }
-
+#about{
+  margin-top:30px;
+}
 .about__img {
   width: 350px;
   border-radius: 1.5rem;

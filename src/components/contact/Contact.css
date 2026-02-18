@@ -9,7 +9,9 @@
   grid-template-columns: repeat(2, 1fr);
   gap:6rem;
 }
-
+#contact{
+  margin-top:30px;
+}
 /* ===== Left & Right Content ===== */
 .contact__content {
   width: 100%;
