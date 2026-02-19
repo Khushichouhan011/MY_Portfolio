@@ -24,7 +24,7 @@
   border-radius: 3px;
   color: white;
   margin-top: 1.5rem;
-  background-color: #0f172a;
+   background-color: #224abe;
   padding: 0.7rem 0.7rem;
   display: inline-flex;
   align-items: center;
@@ -32,7 +32,8 @@
 }
 
 .about__button:hover {
-  background-color: transparent;
+  background:#224abe;;
+  
 }
 
 .about__info {

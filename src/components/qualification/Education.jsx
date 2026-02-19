@@ -83,60 +83,10 @@ export  const Education= () => {
           </div>
 
              {/* Left */}
-           <div className="qualification__content">
-            <div className="qualification__data">
-              <h3 className="qualification__title">Web Design</h3>
-              <span className="qualification__subtitle">
-                mandleshwar
-              </span>
-              <span className="qualification__calendar">
-                2021 - Present
-              </span>
+           
+
             </div>
-
-            <div className="qualification__line">
-              <span className="qualification__rounder"></span>
-              <span className="qualification__liner"></span>
-            </div>
-            <div>
-
-
-
-
-              
-            </div>
-
-
-
-
-
-
-          </div>
-             {/* Right */}
-          <div className="qualification__content">
-            <div></div>
-
-            <div className="qualification__line">
-              <span className="qualification__rounder"></span>
-              <span className="qualification__liner"></span>
-            </div>
-
-            <div className="qualification__data">
-              <h3 className="qualification__title">
-               bombay
-              </h3>
-              <span className="qualification__subtitle">
-                bansal
-              </span>
-              <span className="qualification__calendar">
-                2018 - 2020
-              </span>
-            </div>
-          </div>
-
-
-        </div>
-      )}
+)}
 
 
 

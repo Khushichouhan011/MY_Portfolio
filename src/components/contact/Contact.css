@@ -65,6 +65,7 @@
   gap: 0.3rem;
   margin-bottom : -20px;
   font-weight: 500;
+  
 }
 
 .contact__button-icon {
@@ -111,7 +112,7 @@
 
 /* ===== Button ===== */
 .buttons {
-   background:#0f172a;
+     background: #4e73df;
   color: #fff;
   margin-top:-2rem;
   padding: 0.75rem 1.5rem;
@@ -125,7 +126,7 @@
 
 .buttons:hover {
   background: transparent;
-  color: #0f172a;
+   background: #224abe;
 }
 
 /* ==================== RESPONSIVE ==================== */

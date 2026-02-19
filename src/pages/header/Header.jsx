@@ -15,9 +15,9 @@ export const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="#home" className="nav__logo">
+        <NavLink to="/"className="nav__logo">
           Khushi
-        </a>
+        </NavLink>
 
         <div className={toggle ? "nav__menu show-menu":"nav__menu"}>
           <ul className="nav__list ">

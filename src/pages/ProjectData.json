@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "image": "Country.jpeg",
+    "date": "Dec 2025 - Feb 2026",
+    "name": "Country Explore ",
+    "category": "Frontend",
+    "github_repo": "https://github.com/Khushichouhan011/CountryExploreProject.git",
+     "description": [
+      "Dynamic country details page using URL parameters",
+      "Real-time search functionality & Region-based filter.",
+      "Loader for API fetching state",
+      "Fully responsive layout & Clean component-based architecture."
+    ],
+    "technologies": ["React", "Router","Axios","Javascript","HTML5", "CSS3" ]
+  },
+  {
+    "id": 2,
+    "image": "port.png",
+    "date": "Aug 2025 - Nov 2025",
+    "name": "Portfolio Website",
+    "category": "Frontend",
+    "github_repo": "https://github.com/Khushichouhan011/MY_Portfolio.git",
+     "description": [
+      "Fully Responsive Built a modern and responsive portfolio website",
+      "Implemented project showcase, contact form and social media integration.",
+      "Ensured mobile-first responsiveness using CSS Grid and media queries.",
+      "Continuously improving UI, performance and adding new features."
+
+    ],
+    "technologies": ["React", "React Router","HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": 3,
+    "image": "food.png",
+    "date": "March 2025 - July 2025",
+    "name": "Food Ordering Application",
+    "category": "Frontend",
+    "github_repo": "https://github.com/Khushichouhan011/Food-Ordering-Reactjs.git",
+    "description": [
+      "Developed a dynamic food ordering app with cart functionality.",
+      "Implemented add to cart, remove from cart and total price calculation.",
+      "Used Context API for state management.",
+      "Designed responsive and modern UI."
+      ],
+    "technologies": ["React", "Context API", "CSS","HTML","javacsript ","React Router"]
+  }
+  
+]

@@ -1,4 +1,4 @@
-import { IoDownloadOutline } from "react-icons/io5";
+
 import "./Contact.css";
  import { IoSendOutline } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
