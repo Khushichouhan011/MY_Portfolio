@@ -25,7 +25,7 @@ export const Frontend2=()=>{
 
          <div className="skills__data">< SiRedux className="skills__icon" />
         <div>
-        <h3 className="skills__name">Redux Toolkit</h3>
+        <h3 className="skills__name">Git & Github</h3>
         <span className="skills__level">Intermediate</span>
         </div>
         </div>

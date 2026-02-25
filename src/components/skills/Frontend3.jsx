@@ -28,14 +28,14 @@ export const Frontend3=()=>{
 
         <div className="skills__data"><FaGitAlt className="skills__icon" />
         <div>
-        <h3 className="skills__name">Git</h3>
+        <h3 className="skills__name">Responsive Design</h3>
         <span className="skills__level">Intermediate</span>
         </div>
         </div>
 
           <div className="skills__data"><FaGithub className="skills__icon" />
         <div>
-        <h3 className="skills__name">Github</h3>
+        <h3 className="skills__name">API Integration</h3>
         <span className="skills__level">Intermediate</span>
         </div>
         </div>
